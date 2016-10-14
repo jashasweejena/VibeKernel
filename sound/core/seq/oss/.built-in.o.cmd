@@ -1,0 +1,1 @@
+cmd_sound/core/seq/oss/built-in.o :=  /home/jashaswee/vibex2/X2_ROW_L_OpenSource/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL    -r -o sound/core/seq/oss/built-in.o sound/core/seq/oss/snd-seq-oss.o 

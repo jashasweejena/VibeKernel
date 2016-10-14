@@ -1,0 +1,1 @@
+cmd_arch/arm/common/built-in.o :=  /home/jashaswee/vibex2/X2_ROW_L_OpenSource/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL    -r -o arch/arm/common/built-in.o arch/arm/common/firmware.o arch/arm/common/fiq_glue.o arch/arm/common/fiq_glue_setup.o 
