@@ -34,7 +34,7 @@
 @ -mtls-dialect=gnu -auxbase-strip arch/arm/kernel/asm-offsets.s -g -O2
 @ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs
 @ -Werror=implicit-function-declaration -Wno-format-security -Werror=format
-@ -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast
+@ -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast -Wextra
 @ -Werror=frame-larger-than=1 -Wframe-larger-than=1400
 @ -Wno-unused-but-set-variable -Wdeclaration-after-statement
 @ -Wno-pointer-sign -fno-strict-aliasing -fno-common
