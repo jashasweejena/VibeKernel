@@ -1,0 +1,1 @@
+cmd_net/8021q/built-in.o :=  /home/jashaswee/vibex2/X2_ROW_L_OpenSource/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL    -r -o net/8021q/built-in.o net/8021q/vlan_core.o net/8021q/8021q.o 

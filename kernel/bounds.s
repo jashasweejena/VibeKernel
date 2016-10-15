@@ -34,9 +34,9 @@
 @ -auxbase-strip kernel/bounds.s -g -O2 -Wall -Wundef -Wstrict-prototypes
 @ -Wno-trigraphs -Werror=implicit-function-declaration -Wno-format-security
 @ -Werror=format -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast
-@ -Wextra -Werror=frame-larger-than=1 -Wframe-larger-than=1400
+@ -Werror=frame-larger-than=1 -Wframe-larger-than=1400
 @ -Wno-unused-but-set-variable -Wdeclaration-after-statement
-@ -Wno-pointer-sign -fno-strict-aliasing -fno-common
+@ -Wno-pointer-sign -w -fno-strict-aliasing -fno-common
 @ -fno-delete-null-pointer-checks -fno-pic -fno-dwarf2-cfi-asm
 @ -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls
 @ -fno-var-tracking-assignments -fno-strict-overflow -fconserve-stack

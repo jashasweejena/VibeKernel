@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti-st/built-in.o :=  rm -f drivers/misc/ti-st/built-in.o; /home/jashaswee/vibex2/X2_ROW_L_OpenSource/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ar rcsD drivers/misc/ti-st/built-in.o

@@ -1166,7 +1166,7 @@ static int set_firmware_update_cmd(struct device *dev, struct device_attribute *
 			printk(KERN_DEBUG "CWMCU CHANGE_TO_BOOTLOADER_MODE\n");
 			/* boot enable : put high , reset: put low */
 			#if 1
-			//mt_set_gpio_dir(GPIO_AST_CS_PIN, 1);
+			mt_set_gpio_dir(GPIO_AST_CS_PIN, 1);
 			mt_set_gpio_out(GPIO_AST_RST_PIN, 1);
 			msleep(10);
 			mt_set_gpio_out(GPIO_AST_CS_PIN, 1);
