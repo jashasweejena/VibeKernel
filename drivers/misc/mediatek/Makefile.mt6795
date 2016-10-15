@@ -34,7 +34,7 @@ obj-y	+= xlog/
 obj-y   += atf_log/
 obj-y	+= mmp/
 obj-y	+= m4u/
-obj-y	+= flashlight/src/
+#obj-y	+= flashlight/src/
 obj-y	+= lens/
 
 obj-y	+= jpeg/
